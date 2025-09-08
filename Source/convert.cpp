@@ -5,9 +5,9 @@
  *      Author: marcel.beuler
  */
 
+#include "convert.hpp"
 #include <stdint.h>
 
-#include "convert.h"
 
 
 /* Public methods */

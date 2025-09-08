@@ -1,12 +1,12 @@
 /*
- * convert.h
+ * convert.hpp
  *
  *  Created on: 07.01.2023
  *      Author: marcel.beuler
  */
 
-#ifndef ZULS_INCLUDE_CONVERT_H_
-#define ZULS_INCLUDE_CONVERT_H_
+#ifndef ZULS_INCLUDE_CONVERT_HPP_
+#define ZULS_INCLUDE_CONVERT_HPP_
 
 #include <stdint.h>
 #include <cmath>
@@ -29,4 +29,4 @@ private:
 };
 
 
-#endif /* ZULS_INCLUDE_CONVERT_H_ */
+#endif /* ZULS_INCLUDE_CONVERT_HPP_ */

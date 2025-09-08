@@ -5,8 +5,8 @@
  *      Author: mbeuler
  */
 
-#include "icm20948.h"
-#include "icm20948reg.h"
+#include "icm20948.hpp"
+#include "icm20948reg.hpp"
 
 
 extern "C" uint32_t get_Ticks(void);

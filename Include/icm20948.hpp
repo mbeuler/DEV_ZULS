@@ -1,12 +1,12 @@
 /*
- * icm20948.h
+ * icm20948.hpp
  *
  *  Created on: Mar 29, 2024
  *      Author: mbeuler
  */
 
-#ifndef ZULS_INCLUDE_ICM20948_H_
-#define ZULS_INCLUDE_ICM20948_H_
+#ifndef ZULS_INCLUDE_ICM20948_HPP_
+#define ZULS_INCLUDE_ICM20948_HPP_
 
 #include <stdlib.h>  // For abs() function
 
@@ -14,7 +14,7 @@
 #if defined (STM32F411xE)
     #include "stm32f4xx_spi.h"
 #elif defined (STM32H743xx)
-    #include "stm32h7xx_spi.h"
+    #include <stm32h7xx_spi.hpp>
 #else
     #error "Please select first the target device used in your application (via preprocessor)"
 #endif
@@ -263,4 +263,4 @@ private:
 };
 
 
-#endif /* ZULS_INCLUDE_ICM20948_H_ */
+#endif /* ZULS_INCLUDE_ICM20948_HPP_ */

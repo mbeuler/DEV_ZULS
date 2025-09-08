@@ -1,12 +1,12 @@
 /*
- * icm20948reg.h
+ * icm20948reg.hpp
  *
  *  Created on: Mar 29, 2024
  *      Author: mbeuler
  */
 
-#ifndef ZULS_INCLUDE_ICM20948REG_H_
-#define ZULS_INCLUDE_ICM20948REG_H_
+#ifndef ZULS_INCLUDE_ICM20948REG_HPP_
+#define ZULS_INCLUDE_ICM20948REG_HPP_
 
 
 /* I2C address for the ICM20948 (AD0 = 0, see datasheet p. 14) */
@@ -138,4 +138,4 @@ constexpr uint8_t ICM20948_ACCEL_FS_SEL          {0x06};    // ICM20948_ACCEL_CO
 constexpr uint8_t ICM20948_ACCEL_FCHOICE         {0x01};    // ICM20948_ACCEL_CONFIG
 
 
-#endif /* ZULS_INCLUDE_ICM20948REG_H_ */
+#endif /* ZULS_INCLUDE_ICM20948REG_HPP_ */
