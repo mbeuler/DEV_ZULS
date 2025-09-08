@@ -12,7 +12,7 @@
 
 
 #if defined (STM32F411xE)
-    #include "stm32f4xx_spi.h"
+    #include "stm32f4xx_spi.hpp"
 #elif defined (STM32H743xx)
     #include <stm32h7xx_spi.hpp>
 #else
